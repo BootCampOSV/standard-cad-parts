@@ -1,0 +1,50 @@
+{
+  "metadata":{
+    "name": "ball-bearings-library",
+    "description": "Ball bearings library",
+    "units": {
+      "length": "mm",
+      "force": "N",
+      "weight": "g"
+    },
+    "authors": ["Guillaume Florent", "Thomas Paviot", "Bernard Uguen"],
+    "version": "0.0.1",
+    "date": "2017-03-16",
+    "url": "https://github.com/guillaume-florent/ball-bearings-library",
+    "license": "GPL v3"
+  },
+  "data":{
+    "608ZZ": {
+      "bearing_name": "608ZZ",
+      "template": "templates/plain_bearing_template.py",
+      "outer_diameter": 22.0,
+      "inner_diameter": 8.0,
+      "thickness": 7.0,
+      "load_static" : 1350,
+      "load_dynamic" : 3300,
+      "weight" : 12.0
+    },
+    "624ZZ": {
+      "bearing_name": "624ZZ",
+      "template": "templates/plain_bearing_template.py",
+      "outer_diameter": 13.0,
+      "inner_diameter": 4.0,
+      "thickness": 5.0,
+      "load_static" : 490,
+      "load_dynamic" : 1300,
+      "weight" : 2.7
+    },
+    "F63800ZZ": {
+      "bearing_name": "F63800ZZ",
+      "template": "templates/flanged_bearing_template.py",
+      "outer_diameter": 19.0,
+      "inner_diameter": 10.0,
+      "thickness": 7.0,
+      "flange_diameter": 21.0,
+      "flange_thickness": 1.5,
+      "load_static" : 840,
+      "load_dynamic" : 1716,
+      "weight" : 8.1
+    }
+  }
+}
