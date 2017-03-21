@@ -10,7 +10,7 @@
     "authors": ["Guillaume Florent", "Thomas Paviot", "Bernard Uguen"],
     "version": "0.0.1",
     "date": "2017-03-17",
-    "url": "https://github.com/guillaume-florent/metric-screws-library",
+    "url": "https://github.com/guillaume-florent/standard-cad-parts/parts/fasteners/screws/DIN912",
     "license": "GPL v3"
   },
   "metric_threads": {

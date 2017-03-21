@@ -14,9 +14,7 @@
     "license": "GPL v3"
   },
   "generators":
-    { "flanged_bearing" : ["outer_diameter = {{ outer_diameter }}","inner_diameter = {{ inner_diameter }}","thickness = {{ thickness }}","","flange_diameter = {{ flange_diameter}}","flange_thickness = {{ flange_thickness }}","","part = cylinder(outer_diameter / 2, thickness) - cylinder(inner_diameter / 2, thickness)","","flange = cylinder(flange_diameter / 2, flange_thickness) - cylinder(outer_diameter / 2, flange_thickness)","part += flange"],
-"plain_bearing" : ["outer_diameter = {{ outer_diameter }}","inner_diameter = {{ inner_diameter }}","thickness = {{ thickness }}","","part = cylinder(outer_diameter / 2, thickness) - cylinder(inner_diameter / 2, thickness)"]
- },
+    { {{ generators }} },
   "data":{
     "608ZZ": {
       "bearing_name": "608ZZ",
